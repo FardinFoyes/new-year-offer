@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+
+#hero {
+    background: linear-gradient(rgba(7, 2, 17, 1) 0%,
+            rgba(7, 2, 17, 0) 100%),
+        url("../images/Banner\ Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 700px;
+    max-width: 1600px;
+    margin: 50px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.sub-title {
+    font-size: 32px;
+    font-family: Merriweather;
+    font-weight: 300;
+    color: white;
+}
+
+.title {
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: 900;
+    color: white;
+    max-width: 900px;
+}
