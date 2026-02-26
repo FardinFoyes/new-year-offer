@@ -39,8 +39,9 @@
 
 /* Section 2 Start */
 #hero-section-2 {
-    margin: 120px;
+    margin: 120px auto;
     max-width: 1600px;
+
 
     display: flex;
     justify-content: center;
@@ -74,4 +75,71 @@
 .section-2-sub-title,
 .section-2-sub-title-2 {
     margin: 12px;
+}
+
+/* Section 3 Start */
+#hero-section-3 {
+    background: linear-gradient(90deg, rgba(7, 2, 17, 1) 5%,
+            rgba(7, 2, 17, 0) 50%),
+        url("../images/Vectorrr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 700px;
+    max-width: 1600px;
+    margin: 50px auto;
+    border-radius: 16px;
+    overflow: hidden;
+
+    display: flex;
+    text-align: center;
+}
+
+/* Flex container */
+.section-3-contant {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px;
+}
+
+.section-3-container {
+    text-align: left;
+    max-width: 600px;
+    color: #ffffff;
+}
+
+.section-3-title {
+    color: #FFFFFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 48px;
+}
+
+.section-3-sub-title {
+    color: #FFFFFF;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 48px;
+    opacity: 80%;
+}
+
+
+.join-btn {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.section-3-image img {
+    width: 320px;
 }
