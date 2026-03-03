@@ -379,3 +379,70 @@
     width: 100%;
     display: block;
 }
+
+/* Section 8 start */
+#hero-section-8 {
+    max-width: 1600px;
+    margin: 120px auto;
+}
+
+.section-8-container {
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.section-8-icon {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.section-8-title {
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section-8-p {
+    color: #070211;
+    opacity: 60%;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+}
+
+.section-8-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-8-form input {
+    width: 350px;
+    height: 60px;
+    border: none;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    background: #ffffff;
+}
+
+.section-8-form button {
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 5 00;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+
