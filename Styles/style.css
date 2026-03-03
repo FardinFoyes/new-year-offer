@@ -277,3 +277,63 @@
 .newyear-img {
     width: 120px;
 }
+
+/* Section 6 start */
+#hero-section-6 {
+    max-width: 1600px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.section-6-content-1 {
+    max-width: 1068px;
+    margin: 0 auto 80px auto;
+}
+
+.section-6-sub-title {
+    color: #070211;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.section-6-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.section-6-p {
+    color: #070211;
+    opacity: 60%;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* Bottom design section */
+.section-6-content-2 {
+    background-image: url("../images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    position: relative;
+    height: 660px;
+}
+
+.gift-box {
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
+    width: 700px;
+}
+
+.discount {
+    position: absolute;
+    top: 0px;
+    right: 220px;
+    width: 250px;
+}
